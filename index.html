@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Day-3</title>
+</head>
+<style>
+    h2{
+        color:rgb(31, 27, 146);
+    }
+</style>
+<body>
+    <h2 style="text-align: center;text-decoration:underline">HTML Interview Questions Day-3</h2>
+
+    <div>
+        <h2>1. Write a code to insert an image </h2>
+        <img src="https://archive.org/download/prepbytes_202106/Prepbytes%20Logo.PNG" alt="404 error">
+    </div>
+
+    <h2>2. Create a form contain input fields like name age email and contact</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br><br>
+        <label for="age"> Age : </label>
+        <input type="number" id="age" required><br><br>
+        <label for="email"> Email : </label>
+        <input type="text" id="email" required><br><br>
+        <label for="contact"> Contact : </label>
+        <input type="tel" id="contact" required>
+    </form>
+
+    <h2>3. Create a table and explain how to acheive colspan</h2>
+    <table border="2">
+        <tr>
+            <th>Name</th>
+            <th>Branch</th>
+            <th>Phone Number</th>
+        </tr>
+        <tr>
+            <td>Ramesh</td>
+            <td>Suresh</td>
+            <td>Rajesh</td>
+        </tr>
+        <tr>
+            <td>Cse</td>
+            <td colspan="2" style="text-align: center;">Ece</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>123456789</td>
+            <td>987654321</td>
+            <td>654738921</td>
+        </tr>
+    </table>
+    <p>The colspan attribute defines the number of columns a table cell should span.</p>
+
+    <h2>4. Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two </h2>
+    <p>Course :</p>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1">MERN</label><br>
+   <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+   <label for="vehicle2">MEAN</label><br> 
+
+    <p>Technology :</p>
+    <input type="radio" required>HTML<br>
+    <input type="radio" required>CSS<br>
+    <input type="radio" required>React<br>
+    <input type="radio" required>Node<br>
+
+    <p>Checkboxes and radio buttons are elements for making selections. Checkboxes allow the user to choose items from a fixed number of alternatives, while radio buttons allow the user to choose exactly one item from a list of several predefined alternatives.</p>
+</body>
+</html>
